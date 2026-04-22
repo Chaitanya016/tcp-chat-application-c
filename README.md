@@ -38,3 +38,20 @@ tcp-chat-app/
 
 ## Author
 Chaitanya Sai
+
+## How it works
+
+- Server listens on a TCP socket
+- Each client connects and runs on a separate thread
+- Messages are exchanged using structured frames
+- Active users are managed using a linked list
+
+## Demo
+
+## Screenshots
+
+### Server + Client Setup
+![Setup](screenshots/setup.jpg)
+
+### Chat Output
+![Chat](screenshots/chat.jpg)
